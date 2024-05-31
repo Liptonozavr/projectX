@@ -44,7 +44,8 @@ gamesRouter.put(
   checkIsVoteRequest,
   checkEmptyFields,
   checkIfCategoriesAvaliable,
-  checkIfUsersAreSafe,  
+  checkIfUsersAreSafe,
+  checkIsGameExists ,  
   updateGame,
   sendGameUpdated
 );
